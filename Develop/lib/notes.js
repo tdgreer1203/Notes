@@ -29,6 +29,8 @@ function deleteNote(id, notesArray) {
         return note.id === id;
     });
     notesArray.splice(noteIndex, 1);
+    fs.writeFileSync(path.join(__dirname, '../db/notes.json'), 
+    JSON.stringify({notes: notesArray}, null, 2));
     return notesArray;
 }
 

@@ -14,11 +14,6 @@
       "id": "2",
       "title": "Third Note",
       "message": "This is the message of the third note. "
-    },
-    {
-      "id": "3",
-      "title": "Fourth Note",
-      "message": "This is the title of the fourth note. "
     }
   ]
 }
