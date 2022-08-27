@@ -24,6 +24,14 @@ function createNewNote(note, notesArray) {
     return note;
 }
 
+function deleteNote(id, notesArray) {
+    const noteIndex = notesArray.findIndex(note => {
+        return note.id === id;
+    });
+    notesArray.splice(noteIndex, 1);
+    return notesArray;
+}
+
 function validateNote(note) {
     if(!note.title || typeof note.title !== 'string') {
         return false;
@@ -37,5 +45,6 @@ function validateNote(note) {
 module.exports = {
     filterByQuery,
     createNewNote,
+    deleteNote,
     validateNote
 }
