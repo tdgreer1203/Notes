@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "id": "0",
+      "title": "First Note",
+      "message": "This is the message of the first note."
+    },
+    {
+      "id": "1",
+      "title": "Second Note",
+      "message": "This is the message of the second note."
+    },
+    {
+      "id": "2",
+      "title": "Third Note",
+      "message": "This is the message of the third note. "
+    },
+    {
+      "id": "3",
+      "title": "Fourth Note",
+      "message": "This is the title of the fourth note. "
+    }
+  ]
+}
